@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    tools:context="shawn.c4q.nyc.musicwidget.MainWidget"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:src="@drawable/angsty_android"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"/>
+
+    <TextView
+        android:id="@+id/random_number_tv"
+        android:layout_width="0dp"
+        android:textAlignment="center"
+        android:layout_height="match_parent"
+        android:layout_weight="4"/>
+
+    <Button
+        android:id="@+id/refresh_btn"
+        android:text="@string/refresh_btn_text"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="3"
+        android:layout_gravity="center" />
+</LinearLayout>

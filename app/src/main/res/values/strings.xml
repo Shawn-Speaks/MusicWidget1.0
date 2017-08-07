@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MusicWidget</string>
+    <string name="refresh_btn_text">REFRESH</string>
+</resources>
